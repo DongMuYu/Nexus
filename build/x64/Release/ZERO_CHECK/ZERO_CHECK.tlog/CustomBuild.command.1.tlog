@@ -1,0 +1,10 @@
+^E:\CPP_PROJECTS\NEXUS\BUILD\CMAKEFILES\84273CF46301FB34ADFAA735BFEDE91B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Cpp_Projects/Nexus -BE:/Cpp_Projects/Nexus/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Cpp_Projects/Nexus/build/Nexus.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

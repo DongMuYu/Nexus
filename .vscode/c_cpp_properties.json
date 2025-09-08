@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Nexus",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/src/utils/**",
+                "${workspaceFolder}/src/particles/**",
+                "${workspaceFolder}/src/rendering/**",
+                "${workspaceFolder}/src/physics/**",
+                "${workspaceFolder}/src/core/**",
+                "${workspaceFolder}/src/ui/**",
+                "D:/Libraries/SFML-2.5.1/include/**"
+            ],
+            "defines": [
+                "ASSETS_DIR=\"${workspaceFolder}/src/assets\""
+            ],
+            "compilerPath": "E:/msys64/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
